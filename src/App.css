@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+body {
+  background:  #f5f0e1;
 }
 
 .App-logo {
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bae9f7;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.select-style {
+  border: 1px solid #ccc;
+  width: 200px;
+  border-radius: 3px;
+  overflow: hidden;
+  font-size: 20px;
+  background: #fafafa no-repeat 90% 50%;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  font-size: 20px;
+  border: none;
+  box-shadow: none;
+  background: #1e3d59;
+  background-image: none;
+  color: #fefefe;
+  -webkit-appearance: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+.select-style option {
+  font-size: 20px;
+}
+
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 4px 12px;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #ff6e40;
+}
+
+.customers tr {
+  transition: all .25s;
+}
+
+.customers tr:hover {
+  background-color:  #ffc13b;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #1e3d59;
+  color: white;
+}
+
+button {
+  background-color: #1e3d59;
+  color: #fefefe;
+  width: 140px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  width: 170px;
+  height: 30px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+label {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+div {
+  text-align: center;
 }
